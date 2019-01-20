@@ -1,0 +1,22 @@
+{
+  "name": "world-time-map",
+  "version": "1.0.0",
+  "description": "World current time map with timezones and sunrise/sunset info",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d docs --public-url https://github.com/z3ut/world-time-map/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.4.0",
+    "moment-timezone": "^0.5.23",
+    "suncalc": "^1.8.0",
+    "tz-lookup": "^6.1.8"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.8"
+  }
+}

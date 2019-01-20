@@ -1,0 +1,41 @@
+@import 'leaflet/dist/leaflet.css';
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.map {
+  height: 100%;
+}
+
+.time-table {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 0;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.time-table td {
+  padding: 0 .25em;
+}
+
+.time-table th {
+  border: 1px solid grey;
+}
+
+.time-table th.day {
+  background-color: orange;
+  color: white;
+}
+
+.time-table th.night {
+  background-color: blue;
+  color: white;
+}
+
+.time-table th.polar {
+  
+}
