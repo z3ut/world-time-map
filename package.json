@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -d docs --public-url https://github.com/z3ut/world-time-map/"
+    "build": "parcel build src/index.html -d docs --public-url https://z3ut.github.io/world-time-map/"
   },
   "keywords": [],
   "author": "",
